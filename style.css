@@ -1,0 +1,66 @@
+body{
+    font-family: sans-serif;
+    background-color: #e5e5e5;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+.app{
+    width: 300px;
+    height: 500px;
+    border: 5px solid #1C6758;
+    border-radius: 8px;
+    padding: 40px;
+    background-color: #fff;
+    overflow-y: scroll;
+}
+h4 {
+    text-align: center;
+    color: olivedrab;
+}
+#add {
+    background-color: rgba(171, 206, 161, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+.fa-plus{
+    
+    padding: 2px;
+    border-radius: 3px;
+}
+#name{
+    margin-left: 45px;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+#tasks{
+    display: grid;
+    gap: 3px;
+}
+#tasks div{
+    background-color: #e2eede;
+    border: 3px solid #1C6758;
+    padding: 8px;
+    border-radius: 2px;
+    display: grid;
+    gap: 2px;
+    text-align: center;
+    
+}
+.options{
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+#msg{
+    color: red;
+    text-transform: none;
+}
